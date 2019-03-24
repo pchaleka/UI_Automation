@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="125783" started-at="2019-03-22T09:33:58Z" finished-at="2019-03-22T09:36:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="125783" started-at="2019-03-22T09:33:58Z" finished-at="2019-03-22T09:36:03Z">
+      <class name="com.qa.tests.CustomersFiltersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.CustomersFiltersTest@3ffc5af1]" name="setUp" is-config="true" duration-ms="113327" started-at="2019-03-22T09:33:58Z" finished-at="2019-03-22T09:35:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="customerOperations()[pri:1, instance:com.qa.tests.CustomersFiltersTest@3ffc5af1]" name="customerOperations" duration-ms="6298" started-at="2019-03-22T09:35:51Z" finished-at="2019-03-22T09:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerOperations -->
+        <test-method status="PASS" signature="searchUsersUsingDateFilter()[pri:2, instance:com.qa.tests.CustomersFiltersTest@3ffc5af1]" name="searchUsersUsingDateFilter" duration-ms="1929" started-at="2019-03-22T09:35:57Z" finished-at="2019-03-22T09:35:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUsersUsingDateFilter -->
+        <test-method status="PASS" signature="resetFiltersSelected()[pri:3, instance:com.qa.tests.CustomersFiltersTest@3ffc5af1]" name="resetFiltersSelected" duration-ms="3457" started-at="2019-03-22T09:35:59Z" finished-at="2019-03-22T09:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetFiltersSelected -->
+        <test-method status="PASS" signature="afterCleanup()[pri:0, instance:com.qa.tests.CustomersFiltersTest@3ffc5af1]" name="afterCleanup" is-config="true" duration-ms="680" started-at="2019-03-22T09:36:03Z" finished-at="2019-03-22T09:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterCleanup -->
+      </class> <!-- com.qa.tests.CustomersFiltersTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

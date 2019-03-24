@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="UI-Automation-Suite">
+
+	<test name="New Customer Screen Test Case">
+
+		<classes>
+
+			<class name="com.qa.tests.NewCustomerScreenTest" />
+
+		</classes>
+
+	</test>
+
+	<test name="Customer Filetrs Test Case">
+
+		<classes>
+
+			<class name="com.qa.tests.CustomersFiltersTest" />
+
+		</classes>
+
+	</test>
+
+</suite>
